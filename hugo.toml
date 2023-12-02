@@ -25,6 +25,9 @@ repoID = "R_kgDOK0trBA"
 category = "General"
 categoryID = "DIC_kwDOK0trBM4CbcMm"
 mapping = "title"
+reactionsEnabled = "1"
+inputPosition = "bottom"
+loading = "lazy"
 
 [[params.socialIcons]]
 icon = "fab fa-twitter"
