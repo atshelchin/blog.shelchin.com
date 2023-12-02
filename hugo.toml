@@ -13,6 +13,8 @@ contentratio = 0.8
 readMore = true
 rssFullContent = true
 mainSections = []
+disableComments =false
+postSectionName ="posts"
  
 [params.umami]
 serverURL = "us.umami.is"
