@@ -14,7 +14,10 @@ readMore = true
 rssFullContent = true
 mainSections = []
  
- 
+[params.umami]
+serverURL = "us.umami.is"
+id = "52fe77a1-0dfb-48af-89f4-eef4310b4732"
+trackerScriptName = "script.js"
 
 [params.giscus]
 repo = "shelchin2023/shelchin-blog"
