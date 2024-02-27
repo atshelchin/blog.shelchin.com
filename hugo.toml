@@ -21,15 +21,15 @@ serverURL = "us.umami.is"
 id = "52fe77a1-0dfb-48af-89f4-eef4310b4732"
 trackerScriptName = "script.js"
 
-[params.giscus]
-repo = "shelchin2023/shelchin-blog"
-repoID = "R_kgDOK0trBA"
-category = "General"
-categoryID = "DIC_kwDOK0trBM4CbcMm"
-mapping = "title"
-reactionsEnabled = "1"
-inputPosition = "bottom"
-loading = "lazy"
+# [params.giscus]
+# repo = "shelchin2023/shelchin-blog"
+# repoID = "R_kgDOK0trBA"
+# category = "General"
+# categoryID = "DIC_kwDOK0trBM4CbcMm"
+# mapping = "title"
+# reactionsEnabled = "1"
+# inputPosition = "bottom"
+# loading = "lazy"
 
 [[params.socialIcons]]
 icon = "fab fa-twitter"
@@ -39,7 +39,7 @@ url = "https://twitter.com/atshelchin"
 [[params.socialIcons]]
 icon = "fab fa-github"
 title = "Github"
-url = "https://github.com/shelchin2023"
+url = "https://github.com/atshelchin"
 
 [[params.socialIcons]]
 icon = "fas fa-envelope"
