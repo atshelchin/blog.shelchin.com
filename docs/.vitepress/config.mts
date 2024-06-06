@@ -21,6 +21,10 @@ export default defineConfig({
               text: "SEO 优化怎么做",
               link: "/zh/seo-guide",
             },
+            {
+              text: "Solidity 语法掌握检查清单",
+              link: "/zh/solidity-checklist",
+            },
           ],
         },
       ],
