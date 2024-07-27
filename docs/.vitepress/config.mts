@@ -51,6 +51,15 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: "写作任务",
+          items: [
+            {
+              "text": "关于 POE 一年订阅使用的感受",
+              "link": "/zh/writing-task/2024-7-27",
+            },
+          ],
+        },
       ],
       "/en": [
         {
