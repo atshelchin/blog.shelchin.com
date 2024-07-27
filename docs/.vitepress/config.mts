@@ -25,6 +25,23 @@ export default defineConfig({
               text: "Solidity 语法掌握检查清单",
               link: "/zh/solidity-checklist",
             },
+            {
+              text: "如何创建一个写作任务",
+              link: "/zh/writing-task",
+            },
+            {
+              text: "用好 Git ，让软件历史更清晰易懂",
+              link: "/zh/git-history",
+            },
+            {
+              text: "设置一台新的 Postgres 服务器",
+              link: "/zh/setup-postgres",
+            },
+            {
+              text: "设置一台新的 Redis 服务器",
+              link: "/zh/setup-redis",
+            },
+            
           ],
         },
       ],
