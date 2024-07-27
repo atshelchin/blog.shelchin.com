@@ -13,6 +13,13 @@ export default defineConfig({
     }],
   ],
   themeConfig: {
+    lastUpdated: {
+      text: "Updated at",
+      formatOptions: {
+        dateStyle: "medium",
+        timeStyle: "medium",
+      },
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
