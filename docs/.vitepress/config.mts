@@ -4,6 +4,14 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "I'm Shelchin",
   description: "Home is where the heart is.",
+  head: [
+    // 引入全局 JavaScript 文件
+    ["script", {
+      src: "https://umami.appsdata.org/script.js",
+      defer: "true",
+      "data-website-id": "d7da45bc-5114-499e-ad5f-01d649cd332e",
+    }],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -41,7 +49,6 @@ export default defineConfig({
               text: "设置一台新的 Redis 服务器",
               link: "/zh/setup-redis",
             },
-            
           ],
         },
       ],
