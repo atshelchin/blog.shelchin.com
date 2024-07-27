@@ -13,6 +13,14 @@ export default defineConfig({
     }],
   ],
   themeConfig: {
+    search: {
+      provider: "local",
+    },
+    editLink: {
+      pattern:
+        "https://github.com/atshelchin/blog.shelchin.com/edit/master/docs/:path",
+      text: "Edit this page on GitHub",
+    },
     lastUpdated: {
       text: "Updated at",
       formatOptions: {
