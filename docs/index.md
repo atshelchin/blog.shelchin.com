@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: English Post
-      link: /en/markdown-examples
+      link: /en/how-to-deploy-safe-wallet-on-new-blockchain.html
     # - theme: alt
     #   text: API Examples
     #   link: /en/api-examples
@@ -22,4 +22,3 @@ hero:
 #   - title: Feature C
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
