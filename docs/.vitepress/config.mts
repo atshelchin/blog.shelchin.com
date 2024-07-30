@@ -31,7 +31,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Examples", link: "/en/markdown-examples" },
+      // { text: "Examples", link: "/en/markdown-examples" },
+      { text: "English", link: "/en/how-to-deploy-safe-wallet-on-new-blockchain" },
       { text: "汉字", link: "/zh/seo-guide" },
     ],
 
@@ -78,10 +79,10 @@ export default defineConfig({
       ],
       "/en": [
         {
-          text: "Examples",
+          text: "English",
           items: [
-            { text: "Markdown Examples", link: "/en/markdown-examples" },
-            { text: "Runtime API Examples", link: "/en/api-examples" },
+            { text: "How to deploy Safe Wallet on a new blockchain", link: "/en/how-to-deploy-safe-wallet-on-new-blockchain" },
+            // { text: "Runtime API Examples", link: "/en/api-examples" },
           ],
         },
       ],
