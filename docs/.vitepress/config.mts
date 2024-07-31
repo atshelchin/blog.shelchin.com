@@ -5,6 +5,10 @@ export default defineConfig({
   title: "I'm Shelchin",
   description: "Home is where the heart is.",
   ignoreDeadLinks:'localhostLinks',
+  sitemap: {
+    hostname: 'https://blog.shelchin.com',
+    lastmodDateOnly: false,
+  },
   head: [
     // 引入全局 JavaScript 文件
     ["script", {
