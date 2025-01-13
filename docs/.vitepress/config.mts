@@ -54,10 +54,10 @@ export default defineConfig({
               text: "Solidity 语法掌握检查清单",
               link: "/zh/solidity-checklist",
             },
-            {
-              text: "如何创建一个写作任务",
-              link: "/zh/writing-task",
-            },
+            // {
+            //   text: "如何创建一个写作任务",
+            //   link: "/zh/writing-task",
+            // },
             {
               text: "用好 Git ，让软件历史更清晰易懂",
               link: "/zh/git-history",
@@ -72,15 +72,15 @@ export default defineConfig({
             },
           ],
         },
-        {
-          text: "写作任务",
-          items: [
-            {
-              "text": "关于 POE 一年订阅使用的感受",
-              "link": "/zh/writing-task/2024-7-27",
-            },
-          ],
-        },
+        // {
+        //   text: "写作任务",
+        //   items: [
+        //     {
+        //       "text": "关于 POE 一年订阅使用的感受",
+        //       "link": "/zh/writing-task/2024-7-27",
+        //     },
+        //   ],
+        // },
       ],
       "/en": [
         {
